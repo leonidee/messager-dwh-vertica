@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "messager-dwh-vertica"
+version = "0.1.0"
+description = ""
+authors = ["Leonidee"]
+readme = "README.md"
+packages = [{include = "messager_dwh_vertica"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+apache-airflow = "^2.5.2"
+coloredlogs = "^15.0.1"
+python-dotenv = "^1.0.0"
+boto3 = "^1.26.99"
+sqlalchemy-vertica-python = "^0.5.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
